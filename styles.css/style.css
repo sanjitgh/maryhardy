@@ -127,3 +127,47 @@ nav li a:hover {
     font-size: 18px;
     margin: 20px 0;
 }
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about_innerbg{
+    border: 1px solid #000000d0;
+    background: #fff;
+}
+.about{
+    text-align: center;
+    padding: 130px 155px;
+    background: #FFF8F3;
+    margin-top: 130px;
+    border-radius: 10px;
+}
+.about h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.about p{
+    margin: 30px 0;
+    font-size: 18px;
+}
+
+.about_items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_item{
+
+}
+
+.about_item p{
+    margin: 0;
+    font-size: 20px;
+}
+
+.about_item h4{
+    margin-top: 10px;
+    font-weight: bold;
+}
