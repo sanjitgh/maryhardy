@@ -3,7 +3,10 @@
     padding: 0;
 }
 
-body, h3, h4, h1 {
+body,
+h3,
+h4,
+h1 {
     font-family: "Open Sans";
     padding: 0;
     margin: 0;
@@ -38,16 +41,13 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 230px 0px;
-
+    padding: 60px 230px 0px;
 }
 
 header h3 {
     font-size: 45px;
     font-weight: 800;
 }
-
-header h3 span {}
 
 nav ul {
     display: flex;
@@ -62,6 +62,11 @@ nav li {
 nav li a {
     text-decoration: none;
     font-size: 20px;
+    transition: .1s all ease-out;
+}
+
+nav li a:hover {
+    color: #FD6E0A;
 }
 
 .btn {
@@ -72,6 +77,22 @@ nav li a {
     font-size: 20px;
     font-weight: bold;
     padding: 12px 30px;
+    font-family: "Open Sans";
+    cursor: pointer;
+}
+
+.btn_contact {
+    border-radius: 5px;
+    background: transparent;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 30px;
+}
+
+.btn_download {
+    margin-right: 10px;
 }
 
 .banner {
