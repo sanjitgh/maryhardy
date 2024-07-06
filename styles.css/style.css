@@ -140,7 +140,7 @@ main{
     text-align: center;
     padding: 130px 155px;
     background: #FFF8F3;
-    margin-top: 130px;
+    margin-top: 130px 0;
     border-radius: 10px;
 }
 .about h1{
