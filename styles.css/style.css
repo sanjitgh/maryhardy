@@ -80,6 +80,10 @@ nav li a:hover {
     cursor: pointer;
 }
 
+.btn_hire {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
 .btn_contact {
     border-radius: 5px;
     background: transparent;
@@ -127,83 +131,139 @@ nav li a:hover {
     margin: 20px 0;
 }
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
-.about_innerbg{
+
+.about_innerbg {
     border: 1px solid #000000d0;
     background: #fff;
 }
-.about{
+
+.about {
     text-align: center;
     padding: 130px 155px;
     background: #FFF8F3;
     margin: 130px 0;
     border-radius: 10px;
 }
-.about h1{
+
+.about h1 {
     font-size: 35px;
     font-weight: bold;
 }
 
-.about p{
+.about p {
     margin: 30px 0;
     font-size: 18px;
 }
 
-.about_items{
+.about_items {
     display: flex;
     justify-content: space-around;
 }
 
-.about_item p{
+.about_item p {
     margin: 0;
     font-size: 20px;
 }
 
-.about_item h4{
+.about_item h4 {
     margin-top: 10px;
     font-weight: bold;
 }
 
-.card_section{
+.card_section {
     margin-bottom: 100px;
 }
-.card_header_content{
+
+.card_header_content {
     text-align: center;
     font-size: 18px;
     margin-top: 30px;
     margin-bottom: 50px;
 }
 
-.card_header{
+.card_header {
     text-align: center;
     font-size: 35px;
     font-weight: bold;
 }
 
-.card_header_content{
+.card_header_content {
     width: 910px;
     margin: 40px auto;
-
 }
 
-.card_wrapper{
+.card_wrapper {
     display: flex;
     justify-content: space-between;
     gap: 25px;
 }
 
-.card_box{
+.card_box {
     border-radius: 5px;
     background: #fff;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    padding: 20px;
+    padding: 30px;
 }
 
-.card_box h3{
+.card_box h3 {
     font-size: 20px;
     font-weight: bold;
     margin: 30px 0;
+}
+
+.resume {
+    margin-bottom: 100px;
+}
+
+.resume_header {
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.resume_wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.education_header {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.education_item,
+.experience_item {
+    margin-bottom: 30px;
+}
+
+.education_item h2,
+.experience_item h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.education_item h3,
+.experience_item h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.education_item p,
+.experience_item p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.btn_download_cv {
+    text-align: center;
+    margin-top: 50px;
 }
