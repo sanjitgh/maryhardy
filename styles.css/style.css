@@ -267,3 +267,75 @@ main {
     text-align: center;
     margin-top: 50px;
 }
+
+footer {
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+.footer {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.footer_left_item {
+    width: 50%;
+}
+
+.footer_right_item {
+    width: 50%;
+}
+
+
+.footer_left_item p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.footer_left_item ul {
+    display: flex;
+}
+
+.footer_left_item li {
+    list-style: none;
+}
+
+.footer_left_item a {
+    text-decoration: none;
+}
+
+.footer_left_item img {
+    width: 24px;
+    margin-right: 24px;
+}
+
+.footer_title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer_right_item form input[type=text],
+input[type=email],
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    font-size: 16px;
+    font-family: "Open sans";
+}
+
+.footer_right_item form textarea {
+    min-height: 180px;
+}
+
+.footer_right_item form input:focus,
+textarea:focus {
+    outline: none;
+}
