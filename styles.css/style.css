@@ -29,6 +29,10 @@ h1 {
     color: #FD6E0A;
 }
 
+section {
+    padding: 0 8px;
+}
+
 header {
     background: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
@@ -114,6 +118,9 @@ nav li a:hover {
     display: flex;
     justify-content: center;
     align-items: end;
+}
+.banner_image img{
+    width: 100%;
 }
 
 .banner_content h4 {
@@ -270,7 +277,7 @@ main {
 
 footer {
     background-color: #FFF8F3;
-    padding: 130px 0;
+    padding: 130px 0px;
 }
 
 .footer {
@@ -338,4 +345,60 @@ textarea {
 .footer_right_item form input:focus,
 textarea:focus {
     outline: none;
+}
+
+
+@media screen and (max-width:575px) {
+    header {
+        background: none;
+    }
+    header nav,
+    .card_wrapper,
+    .resume_wrapper,
+    .about_items,
+    .banner,
+    .footer {
+        flex-direction: column;
+    }
+    header nav {
+        padding: 20px 0 20px;
+    }
+
+    nav ul {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .banner{
+        margin: 0;
+    }
+    .btn_download{
+        margin-bottom: 20px;
+    }
+
+    .banner_image{
+        width: auto;
+    }
+
+    .card_header_content {
+        width: auto;
+    }
+    .about {
+        padding: 20px;
+    }
+    .footer_left_item {
+        width: 100%;
+    }
+
+    .footer_right_item {
+        width: 100%;
+    }
+    footer{
+        padding: 60px 5px; 
+    }
+    .footer_right_item form input[type=text],
+    input[type=email],
+    textarea {
+        width: calc(100% - 30px);
+    }
 }
